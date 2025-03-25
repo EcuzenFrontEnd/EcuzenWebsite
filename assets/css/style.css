@@ -339,6 +339,18 @@ li.phn-btn .nav-link.buttoncss:hover img {
     z-index: 100;
     position: absolute;
     display: none;
+    position: relative;
+}
+
+.drp-down::after{
+    position: absolute;
+    content: '';
+    top: -14px;
+    left: 20px;
+    background-color: #00000000;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
 .heading span.main-heading {
     font-size: 24px;
