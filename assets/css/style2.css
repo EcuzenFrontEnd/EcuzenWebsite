@@ -1,10 +1,4 @@
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
 :root{
     --primary-color:#f72f20;
     --secondary-color:#151747;
@@ -124,7 +118,7 @@ li.phn-btn .nav-link.buttoncss:hover img {
     width: 370px;
     right: 0px;
     top: 55px;
-    z-index: 1;
+    z-index: 100;
     position: absolute;
     display: none;
 }
