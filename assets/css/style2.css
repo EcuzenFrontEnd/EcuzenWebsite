@@ -161,3 +161,6 @@ a.main-content {
 .btn-phn:hover .drp-down {
     display: block;
 }
+.abt-btn {
+    color: var(--primary-color);
+}
