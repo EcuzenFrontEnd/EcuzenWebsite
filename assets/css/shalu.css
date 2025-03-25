@@ -1,0 +1,169 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    --primary-color:#f72f20;
+    --secondary-color:#151747;
+}
+
+.main-container{
+    background-color: #f0f2f4;
+}
+.myNavBar {
+    border-radius: 20px;
+    padding: 25px 25px !important;
+    /* font-family: "Manrope", sans-serif; */
+}
+.myNavBar .logo img {
+    height: 40px;
+}
+ul.navbar-nav li.nav-item a.nav-link {
+    line-height: 40px;
+    padding: 0 20px 0 20px;
+    vertical-align: baseline;
+    display: block;
+    color: #333;
+    font-family: 'Manrope';
+    text-transform: uppercase;
+    border-radius: 100px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+ul.navbar-nav li.nav-item a.active {
+    background: var(--secondary-color);
+    color: #fff;
+}
+a.buttoncss.Get-quote {
+    color: #fff;
+    border-color: var(--primary-color);
+    background: linear-gradient(var(--primary-color),var(--primary-color)) padding-box,linear-gradient(to right,#fff,#fff) border-box;
+    -webkit-animation: coccoc-alo-circle-img-anim 1.5s infinite ease-in-out;
+    -moz-animation: coccoc-alo-circle-img-anim 1.5s infinite ease-in-out;
+    -ms-animation: coccoc-alo-circle-img-anim 1.5s infinite ease-in-out;
+    -o-animation: coccoc-alo-circle-img-anim 1.5s infinite ease-in-out;
+    animation: coccoc-alo-circle-img-anim 1.5s infinite ease-in-out;
+    transition: .4s;
+}
+a.buttoncss {
+    margin: 0 0 0 15px;
+    display: inline-block;
+    padding: 0 25px !important;
+    background: linear-gradient(white,white) padding-box,linear-gradient(to right,#f85508,#0d3d65) border-box;
+    border-radius: 50em;
+    border: 1px solid transparent;
+    color: #333;
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+    font-family: 'Manrope';
+    font-size: 16px;
+}
+@keyframes coccoc-alo-circle-img-anim {
+    0% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+
+    10% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+
+    20% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+
+    30% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+
+    40% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+
+    50% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+
+    100% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+}
+.phn-btn a.buttoncss {
+    padding: 0 10px !important;!i;!;
+}
+.phn-btn a.nav-link.buttoncss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hire_us:hover {
+    background: var(--primary-color);
+    color: white !important;
+}
+li.phn-btn a:hover {
+    background: var(--primary-color);
+}
+li.phn-btn .nav-link.buttoncss:hover img {
+        filter: invert(100%);
+}
+.btn-phn {
+    position: relative;
+}
+
+.call-enquiry {
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px 0 rgb(0 0 0 / 30%);
+}
+.drp-down {
+    width: 370px;
+    right: 0px;
+    top: 55px;
+    z-index: 1;
+    position: absolute;
+    display: none;
+}
+.heading span.main-heading {
+    font-size: 24px;
+    color: #333;
+    text-transform: capitalize;
+    font-family: 'Sora';
+    font-weight: 500;
+    padding-left: 10px;
+}
+.heading {
+    display: flex;
+    align-items: center;
+}
+.sales-team .team-heading {
+    color: #333;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Sora';
+    text-transform: capitalize;
+}
+a.main-content {
+    text-decoration: none;
+}
+.info-main .location {
+    font-size: 16px;
+    color: #333;
+}
+.info-main .content {
+    font-size: 16px;
+    color: #333;
+}
+.info-main{
+    padding-left: 10px;
+}
+.info {
+    margin: 20px 0;
+}
+.btn-phn:hover .drp-down {
+    display: block;
+}
