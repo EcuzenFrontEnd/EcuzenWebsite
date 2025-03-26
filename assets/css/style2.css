@@ -161,6 +161,61 @@ a.main-content {
 .btn-phn:hover .drp-down {
     display: block;
 }
+
+/* aboutsection */
 .abt-btn {
     color: var(--primary-color);
+}
+
+.experiences {
+    background-color: #fcfcfc;
+    padding: 48px;
+}
+section.about-us .container {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    max-width: 1600px;
+}
+h3.title-heading {
+    font-size: 42px;
+    font-weight: 600;
+    font-family: 'Sora';
+}
+span.bottom-line.bottom-line-big {
+    width: 100px;
+    display: inline-block;
+    border: 1px solid #191919;
+}
+p.description {
+    font-size: 18px;
+    line-height: 170%;
+    color: #191919;
+    font-family: 'Manrope';
+    font-weight: 600;
+}
+.exp-box h3.title {
+    font-size: 32px;
+    font-family: 'Sora';
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom:5px;
+}
+.contnt {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Sora';
+}
+.hire-dev {
+    background-color: #4842A8;
+    color: white;
+}
+.hire-dev  p {
+    font-weight: 500;
+    font-family: 'Manrope';
+    font-size: 16px;
+}
+.hire-dev .main-heading h2 {
+    font-size: 32px;
+    font-family: 'Sora';
+    font-weight: 600;
 }
