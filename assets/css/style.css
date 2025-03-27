@@ -216,6 +216,11 @@
   text-decoration: none;
 }
 
+.content-li:hover .content-ul{
+  opacity: 0;
+  visibility: hidden;
+}
+
 .swiper-btn span {
   display: inline-block;
   /* height: 15px; */
@@ -248,12 +253,11 @@
 }
 .navOffcanvas .offcanvas-header {
   border-radius: 12px;
-  background-color: red;
+  background: linear-gradient(357deg, #c9c6f7 0, #e9e6fb 31%, #201bb9 100%);
   width: fit-content;
   align-items: start !important;
   height: 100%;
 }
-
 .navOffcanvas .offcanvas-header button:focus{
   box-shadow: none !important;
 }
@@ -266,6 +270,116 @@
     margin: 0 !important;
 }
 
+.offcanvas-nav {
+  flex-direction: column;
+}
+.nav-btn .main-btn {
+  width: 100%;
+  border-radius: 20px !important;
+  padding: 12px 18px;
+  text-align: left;
+  border: none;
+  font-size: 16px;
+  font-family: 'Sora';
+  color: var(--secondary-color);
+}
+.nav-btn:focus-visible
+{
+  border: none !important;
+  outline:none !important;
+  box-shadow: none !important;
+}
+.nav-tabs .nav-link:focus-visible{
+  border: none !important;
+  outline:none !important;
+  box-shadow: none !important;
+}
+.nav-tabs .nav-link:focus{
+  border: none !important;
+  outline:none !important;
+  box-shadow: none !important;
+}
+.main-btn:focus-visible
+{
+  border: none !important;
+  outline:none !important;
+  box-shadow: none !important;
+}
+.nav-btn .main-btn.active {
+  border: none;
+  background-color: #F3F3F3 !important;
+  color: var(--primary-color) !important;
+  font-weight: 600;
+}
+.nav-btn .main-btn:hover {
+  background: #F3F3F3;
+  border:none !important;
+  color: var(--primary-color);
+}
+.nav-btn {
+  margin-bottom: 20px;
+}
+.offcanvas-nav {
+  border: none !important;
+}
+ul.tab-sub-menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 17px;
+  font-family: 'Sora';
+  font-weight: 500;
+}
+.tab-pane .title-heading {
+  margin-bottom: 30px;
+  color: var(--secondary-color);
+  font-size: 25px;
+  font-weight: 700;
+}
+.tab-pane .title-heading a {
+  color: var(--secondary-color);
+}
+ul.tab-sub-menu li a {
+  color: black;
+  text-decoration: none;
+}
+.para p {
+  font-family: 'Sora';
+  line-height: 165%;
+}
+.img-div {
+  height: 100%;
+  aspect-ratio: 3/4;
+}
+.img-div img {
+  border-radius: 20px;
+}
+
+.content-space {
+  margin-top: -50px;
+  border-radius: 0 0 30px 30px;
+  background-color: var(--secondary-color);
+}
+.view-btn .btn {
+  font-family: 'sora';
+  font-weight: 500;
+  font-size: 16px;
+  border: 2px solid #ffffff;
+}
+.content-space .project-name {
+  padding-top: 50px;
+}
+.back-image {
+  border-radius: 30px 30px;
+}
+.back-image  img {
+  border-radius: 30px 30px;
+}
+.project-no .numbers {
+  color: var(--primary-color);
+}
 /* shalu ma'am css */
 
 .main-container {
