@@ -260,19 +260,16 @@ p.description {
     color: var(--primary-color) !important;
 }
 
-.services-wrapper .Service-details{
-    background-color: var(--secondary-color);
-}
-
 .services-wrapper .Service-details .service-name{
     font-size: 30px !important;
     font-weight: 700;
     font-family: 'Sora';
+    color: var(--primary-color);
 }
 
 .services-wrapper .Service-details .services-description{
     font-size: 15px !important;
-    color: white;
+    color: var(--secondary-color);
     font-weight: 500;
     font-family: 'Sora';
     margin-top: 10px;
@@ -280,8 +277,8 @@ p.description {
 }
 
 .services-wrapper .Service-details .langicon{
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
     background-color: #F0F2F4;
     border-radius: 8px;
     padding: 16px;
@@ -296,7 +293,40 @@ p.description {
     font-size: 14px;
     font-weight: 500;
     font-family: 'Sora';
-    color: #fff;
+    color: var(--secondary-color);
     text-align: center;
     margin-top: 5px;
+}
+.service-img img {
+    aspect-ratio: 2/2.5;
+    object-fit: cover;
+}
+.Service-details .tab-content {
+    background-color: #f0f2f4;
+    border-radius: 30px;
+    /* overflow: hidden; */
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.bg-image-pattern {
+    top: -39px;
+    height: 250px;
+    width: 148px;
+    z-index: -1;
+    left: -76px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.bg-image-pattern img {
+    height: 100%;
+    width: 100%;
+}
+.Service-details .tab-content .tab-pane {
+    z-index: 99;
+}
+.Service-details .tab-content .tab-pane .service-img {
+    border-radius: 30px;
+}
+.Service-details .tab-content .tab-pane .service-img img {
+    border-radius: 30px 0 0 30px;
 }
