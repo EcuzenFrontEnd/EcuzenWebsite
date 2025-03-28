@@ -87,7 +87,7 @@ a.buttoncss {
     }
 }
 .phn-btn a.buttoncss {
-    padding: 0 10px !important;!i;!;
+    padding: 0 10px !important;
 }
 .phn-btn a.nav-link.buttoncss {
     display: flex;
@@ -106,6 +106,10 @@ li.phn-btn .nav-link.buttoncss:hover img {
 }
 .btn-phn {
     position: relative;
+}
+
+.title-subPara{
+    font-size: 18px;
 }
 
 .call-enquiry {
@@ -218,4 +222,81 @@ p.description {
     font-size: 32px;
     font-family: 'Sora';
     font-weight: 600;
+}
+
+
+.services-wrapper .serviceTabs{
+    flex-direction: column !important;
+    border: none !important;
+    gap: 20px;
+}
+
+.services-wrapper .serviceTabs .nav-link {
+    text-align: start !important;
+    font-size: 20px !important;
+    font-weight: 600;
+    color: var(--secondary-color) !important;
+    border: none !important;
+    font-family: 'Sora';
+    position: relative;
+    padding-inline: 0 !important;
+}
+
+.services-wrapper .serviceTabs .nav-link::after{
+    position: absolute;
+    content: '';
+    bottom: 5px;
+    left: 0;
+    background-color: var(--secondary-color);
+    height: 3px;
+    width: 30px;
+}
+
+.services-wrapper .serviceTabs .nav-link.active::after{
+    background-color: var(--primary-color);
+}
+
+.services-wrapper .serviceTabs .nav-link.active{
+    color: var(--primary-color) !important;
+}
+
+.services-wrapper .Service-details{
+    background-color: var(--secondary-color);
+}
+
+.services-wrapper .Service-details .service-name{
+    font-size: 30px !important;
+    font-weight: 700;
+    font-family: 'Sora';
+}
+
+.services-wrapper .Service-details .services-description{
+    font-size: 15px !important;
+    color: white;
+    font-weight: 500;
+    font-family: 'Sora';
+    margin-top: 10px;
+    text-align: center;
+}
+
+.services-wrapper .Service-details .langicon{
+    height: 70px;
+    width: 70px;
+    background-color: #F0F2F4;
+    border-radius: 8px;
+    padding: 16px;
+
+}
+
+.services-wrapper .Service-details .langCard{
+    width: fit-content;
+}
+
+.services-wrapper .Service-details .lang-name{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Sora';
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
 }
