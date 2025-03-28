@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ecuzen New Web</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/style2.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
@@ -20,9 +20,9 @@
 
 <body>
     <div class="container-fluid main-container py-4">
-        <div class="row px-4">
+        <div class="row px-sm-4">
             <div class="col-12">
-                <nav class="navbar navbar-expand-lg myNavBar bg-white" aria-label="Offcanvas navbar large">
+                <nav class="navbar navbar-expand-xl myNavBar bg-white" aria-label="Offcanvas navbar large">
                     <div class="container-fluid px-0">
                         <a class="navbar-brand" href="#">
                             <div class="logo">
@@ -34,15 +34,15 @@
                             aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2"
                             aria-labelledby="offcanvasNavbar2Label">
                             <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5>
+                                <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Ecuzen</h5>
                                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                                     aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
-                                <ul class="navbar-nav justify-content-end flex-grow-1">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 align-items-xl-center">
                                     <li class="nav-item">
                                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                                     </li>
@@ -50,26 +50,391 @@
                                         <a class="nav-link" href="#">About Us</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Service</a>
+                                        <a class="nav-link" href="#">Career</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Our Work</a>
+                                    <li class="accordion nav-item d-xl-none mobile-menu-hide" id="accordionExample">
+                                        <div class="accordion-button nav-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Industries
+                                        </div>
+                                         
+                                        <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <ul class="tab-sub-menu">
+                                                    <li>
+                                                        <a href="#">
+                                                            All Industries
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Banking Industries
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Manufacturing Industry
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            B2B, B2C & Reseller Industry
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Education Industry
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            E-commerce Industry
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Social Networking Industry
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Insurance Industry
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Travel & Hospitality Industry
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Sales & Marketing Industry
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Transportation and Logistics
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Healthcare Industry
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Real Estate Industry
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Media & Entertainment
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Automotive and Vehicle
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            On Demand Industry
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                          </div>
+                                        
                                     </li>
+
+                                    <li class="accordion nav-item d-xl-none mobile-menu-hide" id="accordionExample">
+                                        <div class="accordion-button nav-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+                                            Service
+                                        </div>
+                                         
+                                        <div id="collapsetwo" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <ul class="tab-sub-menu">
+                                                    <li>
+                                                        <a href="#">
+                                                            Our All Services
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Web Development
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            App Development
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Cloud Computing
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Digital & Media Marketing
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Design & Experience
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            IT Support & Consulting
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Business Development
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            White Labeling
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Project Management
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Content Management
+                                                        </a>
+                                                    </li>
+                
+                                                </ul>
+                                            </div>
+                                          </div>
+                                        
+                                    </li>
+                                    
+                                    <li class="accordion nav-item d-xl-none mobile-menu-hide" id="accordionExample">
+                                        <div class="accordion-button nav-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethree" aria-expanded="true" aria-controls="collapsethree">
+                                            Software
+                                        </div>
+                                         
+                                        <div id="collapsethree" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <ul class="tab-sub-menu">
+                                                    <li>
+                                                        <a href="#">
+                                                            Our Software
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            B2B, B2C and Reseller Software
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Restaurant Management Software
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            School Management Software
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Travel Booking Software
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Insurance Software
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Education Software
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Gaming Software
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            MLM Software
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Event Management Softwares
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            CRM Software
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Finance Software
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            On Demand Software
+                                                        </a>
+                                                    </li>
+                
+                                                </ul>
+                                            </div>
+                                          </div>
+                                        
+                                    </li>
+
+                                    <li class="accordion nav-item d-xl-none mobile-menu-hide" id="accordionExample">
+                                        <div class="accordion-button nav-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="true" aria-controls="collapsefour">
+                                            Fintech Service
+                                        </div>
+                                         
+                                        <div id="collapsefour" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <ul class="tab-sub-menu">
+                                                    <li>
+                                                        <a href="#">
+                                                            Our Fintech Service
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Aadhaar Enabled Payment System (AEPS)
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Bharat Bill Payment System (BBPS)
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Domestic Money Transfer (DMT)
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Multi-Recharge Service
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Payout Service
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Pancard Service
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Payment Gateway Service
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Fastag Service
+                                                        </a>
+                                                    </li>
+                
+                                                </ul>
+                                            </div>
+                                          </div>
+                                        
+                                    </li>
+
+                                    <li class="accordion nav-item d-xl-none mobile-menu-hide" id="accordionExample">
+                                        <div class="accordion-button nav-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="true" aria-controls="collapsefive">
+                                            API Services
+                                        </div>
+                                         
+                                        <div id="collapsefive" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <ul class="tab-sub-menu">
+                                                    <li>
+                                                        <a href="#">
+                                                           Our API Services
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            AEPS Payment API
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            BBPS API Provider
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            DMT API Provider
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            UPI Payment API Provider
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Payout API Provider
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Pancard API Provider
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Whatsapp API Provider
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Aadhaar Verification API Provider
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Recharge API Provider
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                          </div>
+                                        
+                                    </li>
+
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Case Study</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Company Profile</a>
+                                        <a class="nav-link" href="#">Blogs</a>
                                     </li>
                                 </ul>
-                                <ul class="navbar-nav justify-content-end pe-3 d-flex align-items-center">
-                                    <li class="get-quote-btn nav-btn ">
+                                <ul class="navbar-nav justify-content-end d-flex align-items-xl-center">
+                                    <li class="get-quote-btn nav-btn mb-xl-0 mb-4">
                                         <a class="nav-link buttoncss Get-quote" href="#">Get a Quote</a>
                                     </li>
-                                    <li class="nav-btn">
-                                        <a class="nav-link buttoncss hire_us" href="#">Hire Us</a>
+                                    <li class="nav-btn ecuzenlife mb-xl-0 mb-4">
+                                        <a class="nav-link buttoncss hire_us" href="#">Life @ Ecuzen</a>
                                     </li>
-                                    <li class="nav-btn phn-btn">
+                                    <li class="nav-btn phn-btn mb-xl-0 mb-4">
                                         <div class="btn-phn">
                                             <a class="nav-link buttoncss" href="#">
                                                 <img src="assets\images\phone.svg" alt="phone" height="20px">
@@ -156,7 +521,7 @@
                                         </div>
 
                                     </li>
-                                    <li class="nav-btn">
+                                    <li class="nav-btn d-none d-xl-block">
                                         <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample"
                                             role="button" aria-controls="offcanvasExample">
                                             <img src="assets\images\btntole.svg" alt="phone" height="30px">
@@ -171,9 +536,10 @@
         </div>
     </div>
 
+
     <!-- hero section start -->
     <div class="container-fluid px-4 heroSection py-4">
-        <div class="row px-3">
+        <div class="row px-sm-3">
             <div class="col-12">
                 <div class="swiper heroSwiper position-relative">
                     <div class="swiper-wrapper">
@@ -190,7 +556,7 @@
                                         code—limitless possibilities. Smart design, powerful development, real results.
                                         Where creativity meets technology.
                                     </div>
-                                    <a class="swiper-btn mt-4" href="#">
+                                    <a class="swiper-btn mt-3 mt-sm-4" href="#">
                                         Talk to Consultant
                                         <span class="btn-arrow">
                                             <img class="h-100 w-100" src="./assets/images/Arrow-white.png" alt="">
@@ -394,7 +760,7 @@
     </section>
 
     <!-- our work process start -->
-    <div class="container-fluid my-5">
+    <div class="container-fluid my-3 my-sm-4 my-md-5">
         <section id="work-prossec">
             <h3 class="title-heading text-center">
                 Our Work Process
@@ -3635,7 +4001,97 @@
                     </div>
 
                     <div class="tab-pane fade" id="Hire-tab-pane" role="tabpanel" aria-labelledby="Hire-tab"
-                        tabindex="0">7</div>
+                        tabindex="0">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="blog-card">
+                                    <div class="blog-img h-100 w-100">
+                                        <img src="assets\images\blogimg-1.jpg" class="h-100 w-100 image-blog">
+                                        <div class="date_psts">
+                                            <div class="date_ts">07 Mar 2025 </div>
+                                        </div>
+                                        <div class="category">
+                                            <div class="blog-cat">
+                                                Technology
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="blog-content">
+                                        <h3 class="blog-heading">
+                                            How B2C Software Development Changes Businesses and Drives Growth
+                                        </h3>
+                                        <p class="blog-para">
+                                            In a rapidly changing digital age, companies must adopt software that gives them the tools to compete in an ever-increasing market. For organizations designed to reach their customers directly, a B2C software development investment is essential to the success of a business. But what does this mean and why does it matter?
+                                        </p>
+                                        <a class="swiper-btn mt-4  blog-btn" href="#">
+                                            View More
+                                            <span class="btn-arrow">
+                                                <img class="h-100 w-100" src="./assets/images/Arrow-left.png" alt="">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="blog-card">
+                                    <div class="blog-img h-100 w-100">
+                                        <img src="assets\images\blogimg-2.jpg" class="h-100 w-100 image-blog">
+                                        <div class="date_psts">
+                                            <div class="date_ts">07 Mar 2025 </div>
+                                        </div>
+                                        <div class="category">
+                                            <div class="blog-cat">
+                                                Technology
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="blog-content">
+                                        <h3 class="blog-heading">
+                                            How B2C Software Development Changes Businesses and Drives Growth
+                                        </h3>
+                                        <p class="blog-para">
+                                            In a rapidly changing digital age, companies must adopt software that gives them the tools to compete in an ever-increasing market. For organizations designed to reach their customers directly, a B2C software development investment is essential to the success of a business. But what does this mean and why does it matter?
+                                        </p>
+                                        <a class="swiper-btn mt-4  blog-btn" href="#">
+                                            View More
+                                            <span class="btn-arrow">
+                                                <img class="h-100 w-100" src="./assets/images/Arrow-left.png" alt="">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="blog-card">
+                                    <div class="blog-img h-100 w-100">
+                                        <img src="assets\images\blogimg-3.jpg" class="h-100 w-100 image-blog">
+                                        <div class="date_psts">
+                                            <div class="date_ts">07 Mar 2025 </div>
+                                        </div>
+                                        <div class="category">
+                                            <div class="blog-cat">
+                                                Technology
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="blog-content">
+                                        <h3 class="blog-heading">
+                                            How B2C Software Development Changes Businesses and Drives Growth
+                                        </h3>
+                                        <p class="blog-para">
+                                            In a rapidly changing digital age, companies must adopt software that gives them the tools to compete in an ever-increasing market. For organizations designed to reach their customers directly, a B2C software development investment is essential to the success of a business. But what does this mean and why does it matter?
+                                        </p>
+                                        <a class="swiper-btn mt-4  blog-btn" href="#">
+                                            View More
+                                            <span class="btn-arrow">
+                                                <img class="h-100 w-100" src="./assets/images/Arrow-left.png" alt="">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
