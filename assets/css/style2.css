@@ -181,6 +181,7 @@ section.about-us .container {
     
 }
 h3.title-heading {
+    width: fit-content;
     font-size: 42px;
     font-weight: 600;
     font-family: 'Sora';
@@ -320,6 +321,7 @@ p.description {
 .bg-image-pattern img {
     height: 100%;
     width: 100%;
+    object-fit: contain;
 }
 .Service-details .tab-content .tab-pane {
     z-index: 99;
