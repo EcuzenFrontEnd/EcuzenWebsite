@@ -686,3 +686,47 @@ a.main-content {
 .offcanvas-nav {
   gap: 20px;
 }
+.service-text {
+  padding: 0 80px;
+}
+/* .double-color {
+  -webkit-text-stroke: 3px #f8550800;
+  -webkit-text-stroke-width: 3px;
+  text-stroke: 3px #02010100;
+  -webkit-text-stroke-width: 3px;
+  background-image: linear-gradient(262deg, #061b54 0%, #f85508 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-weight: 400;
+} */
+.why-choose-us .why-choose-content .why-choose-heading {
+  font-family: 'Sora';
+}
+.why-choose-us .why-choose-content .why-main-content {
+  font-family: 'Manrope';
+  font-size: 17px;
+  line-height: 170%;
+  font-weight: 600;
+}
+.why-choose-us .why-choose-content .why-choose-heading .main-heading {
+  font-size: 50px;
+  font-weight: 700;
+}
+.why-choose-us .container {
+  /* box-shadow: 3px 20px 10px rgba(0, 0, 0, 0.2); */
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 8px -7px 23px 0px rgba(0, 0, 0, 0.2);
+}
+.img-choose img {
+  object-fit: cover;
+  border-radius: 20px;
+}
+/* .container{
+  max-width: 1600px;
+} */
+.why-choose-content {
+  padding-left: 50px !important;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
