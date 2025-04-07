@@ -67,6 +67,13 @@
   .why-choose-content{
     padding-left: 16px !important;
   }
+  .service-img img {
+    aspect-ratio: 2.5/1;
+  }
+  .services-wrapper .serviceTabs {
+    flex-direction: row !important;
+    border: none !important;
+}
 }
 
 @media (max-width: 767px) {
@@ -90,6 +97,16 @@
   .Service-details .tab-content .tab-pane .service-img img {
     border-radius: 30px;
   }
+  .service-text {
+    padding:0;
+}
+.services-wrapper {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.service-img img {
+  aspect-ratio: 1/1;
+}
 }
 @media (max-width: 576px) {
   .swiper-text-wrapper {
@@ -140,6 +157,9 @@
   }
   .experiences {
     padding: 40px 15px 0px;
+  }
+  .myNavBar .logo img {
+    height: 35px;
   }
 }
 

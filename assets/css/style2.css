@@ -285,9 +285,13 @@ p.description {
     padding: 16px;
 
 }
-
-.services-wrapper .Service-details .langCard{
+.services-wrapper .Service-details .langCard {
     width: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }
 
 .services-wrapper .Service-details .lang-name{
