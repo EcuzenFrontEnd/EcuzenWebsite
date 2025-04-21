@@ -604,6 +604,11 @@ a.buttoncss {
   align-items: center;
   justify-content: center;
 }
+
+.phn-btn a.nav-link.buttoncss img{
+  height: 20px !important;
+}
+
 .hire_us:hover {
   background: var(--primary-color);
   color: white !important;
@@ -1489,7 +1494,7 @@ body {
   margin-bottom: 10px;
 }
 .logo {
-  max-width: 120px;
+  /* max-width: 120px; */
   max-height: 120px;
   display: flex;
   margin: auto;
@@ -1513,3 +1518,6 @@ body {
 .footerLogo img{
   height: 100%;
 }
+
+
+/* about us page design */
