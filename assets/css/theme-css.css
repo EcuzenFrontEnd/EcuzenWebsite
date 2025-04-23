@@ -11963,6 +11963,10 @@ header .flaticon-list {
   -moz-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
+  display: -webkit-box;
+  -webkit-line-clamp: 6; /* Number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .service_post.style_three .text_box .text_box_inner .read_more {
   position: relative;
@@ -17037,7 +17041,7 @@ header .flaticon-list {
 }
 
 .three_column .grid_show_case .grid_box {
-  width: 33.33%;
+  width: 33%;
   padding: 0px 12px;
   margin-bottom: 25px;
 }
